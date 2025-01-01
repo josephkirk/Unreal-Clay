@@ -1,0 +1,46 @@
+{
+  "FileVersion": 3,
+  "Version": 1,
+  "VersionName": "1.0",
+  "FriendlyName": "UnrealClay",
+  "Description": "Clay UI integration for Unreal Engine",
+  "Category": "UI",
+  "CreatedBy": "UnrealClay Contributors",
+  "CreatedByURL": "",
+  "DocsURL": "",
+  "MarketplaceURL": "",
+  "SupportURL": "",
+  "EnabledByDefault": false,
+  "CanContainContent": true,
+  "IsBetaVersion": true,
+  "IsExperimentalVersion": true,
+  "Installed": false,
+  "Modules": [
+    {
+      "Name": "UnrealClay",
+      "Type": "Runtime",
+      "LoadingPhase": "PreDefault",
+      "PlatformAllowList": [
+        "Win64",
+        "Linux",
+        "Mac"
+      ]
+    },
+    {
+      "Name": "UnrealClayEditor",
+      "Type": "Editor",
+      "LoadingPhase": "PreDefault",
+      "PlatformAllowList": [
+        "Win64",
+        "Linux",
+        "Mac" 
+      ]
+    }
+  ],
+  "Plugins": [
+    {
+      "Name": "RHI",
+      "Enabled": true
+    }
+  ]
+}
